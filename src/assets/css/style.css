@@ -1,0 +1,100 @@
+body {
+  background-color: #a1c9a0f8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  justify-content: space-around;
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-text {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.comlaxity-play-conatainer {
+  background-color: white;
+  height: 400px;
+  width: 900px;
+  box-shadow: 0 10x 10px 10px rgba(0, 0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  border-radius: 50px;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.comlaxity-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.complaxity-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  width: 250px;
+  height: 200px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.complaxity-div:active {
+  transform: scale(0.8);
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.easy {
+  background-color: rgb(112, 235, 112);
+}
+
+.normal {
+  background-color: rgb(251, 251, 110);
+}
+
+.hard {
+  background-color: rgb(255, 112, 112);
+}
+
+.play-button {
+  width: 300px;
+  height: 110px;
+  border-radius: 50px;
+  font-size: 3rem;
+  background-color: rgb(96, 96, 199);
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.play-button:active {
+  transform: scale(0.8);
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
