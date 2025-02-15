@@ -4,7 +4,7 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon src/app.js"
+    "start": "nodemon src/app.js http://localhost:3000/"
   },
   "author": "",
   "license": "ISC",
