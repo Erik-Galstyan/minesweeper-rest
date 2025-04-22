@@ -20,11 +20,11 @@ Minesweeper Web Game is a browser-based version of the classic Minesweeper game.
 
    - Via HTTPS:
      ```bash
-     git clone https://github.com/your-username/minesweeper.git
+     git clone https://github.com/Erik-Galstyan/minesweeper.git
      ```
    - Via SSH:
      ```bash
-     git clone git@github.com:your-username/minesweeper.git
+     git clone git@github.com:Erik-Galstyan/minesweeper.git
      ```
    - Or download the ZIP file from the repository page and extract it.
 
