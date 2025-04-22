@@ -32,7 +32,7 @@ Minesweeper Web Game is a browser-based version of the classic Minesweeper game.
 
 ```bash
    cd minesweeper
-   npm install
+   npm ci
 ```
 
 ## Usage
